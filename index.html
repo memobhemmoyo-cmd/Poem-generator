@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title> AI Poem Generator</title>
-</head>
-<body>
-   <header>
-    <h1>
-        AI poem Generator
-    </h1>
-   </header>
-   <main>
-    <form>
-    <input
-    type="text"
-    placeholder="Enter the topic of the poem"
-    autofocus
-    required
-    autocomplete="off"
-    />
-    <input  
-    type="submit"
-    />
-    </form>
-    <div>
-im definetly not the predecessor
-<br/>
-i am the successor
-    </div>
-   </main>
-   <footer>
-This AI project was coded by 
-<a href="https://github.com/memobhemmoyo-cmd">
-</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>AI Poem Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-   </footer>
-</body>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Im not a predecessor
+          <br />
+          Im a successor
+        </div>
+      </main>
+
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/memobhemmoyo-cmd" target="_blank">Memory Moyo</a>
+        and is
+        <a
+          href="https://github.com/memobhemmoyo-cmd"  
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+      <a href="https://app.netlify.com/projects/poem-generatorhtml" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
 </html>
